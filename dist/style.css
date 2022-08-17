@@ -57,7 +57,7 @@ button, .button {
 }
 
 .header nav {
-  padding: 25px;
+  padding: 1rem 1.5rem;
 }
 .header__logo img {
   width: 8.8rem;
@@ -73,12 +73,41 @@ button, .button {
   margin-bottom: 4px;
 }
 .header__links a {
+  position: relative;
   font-size: 0.875rem;
+  font-weight: 500;
   color: hsl(233deg, 8%, 62%);
+  transition: color 250ms ease-in-out;
 }
 .header__links a:not(:last-child) {
   margin-right: 2rem;
 }
+.header__links a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.3rem;
+  left: 0;
+  right: 0;
+  top: 1.8rem;
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+  border-radius: 0.15rem;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+.header__links a:hover {
+  color: hsl(233deg, 26%, 24%);
+  font-weight: 500;
+}
+.header__links a:hover::after {
+  opacity: 1;
+}
 .header__cta {
   font-size: 0.875rem;
+  opacity: 0.8;
+  transition: opacity 250ms ease-in-out;
+}
+.header__cta:hover {
+  opacity: 1;
+  background: linear-gradient(30deg, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
 }/*# sourceMappingURL=style.css.map */
