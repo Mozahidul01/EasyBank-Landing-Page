@@ -6,6 +6,11 @@
 
     &__logo{
 
+        img{
+            width: 8.8rem;
+            height: 1.4rem;
+        }
+
     }
 
     &__hamburger{  //Mobile Menu
@@ -26,13 +31,16 @@
     &__links{
 
         a{
-            font-size: font-sm;
+            font-size: $font-sm;
             color: $grayishBlue;
+        
+        &:not(:last-child){
+            margin-right: 2rem;
+            }
         }
-
     }
 
     &__cta{
-        font-size: font-md;
+        font-size: $font-sm;
     }
 }
