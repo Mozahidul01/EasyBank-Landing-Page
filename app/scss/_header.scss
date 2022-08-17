@@ -79,10 +79,17 @@
 
         a{
             display: block;
+            position: relative;
             padding: 0.7rem;
             color: $darkBlue;
             font-size: $font-md;
             text-align: center;
+
+            &:hover{
+                background-image: linear-gradient(to right, $limeGreen, $brightCyan);
+                color: $white;
+                border-radius: 0.3rem;
+            }
         }
 
     }
