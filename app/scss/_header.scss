@@ -1,7 +1,43 @@
 .header{
+    position: relative;
+    z-index: 1;
+
+//Hamburgent Open Style
+    &.open{
+
+        .header__hamburger{
+
+            .line1{
+                transform: rotate(45deg);
+            }
+    
+            .line2{
+                opacity: 0;
+            }
+    
+            .line3{
+                transform: rotate(-45deg);
+            }
+    
+        }
+
+    }
+
+    .overlay{
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient($darkBlue , transparent);
+    }
 
     nav{
-        padding: 1rem 1.5rem;
+        position: relative;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: $white;
     }
 
     &__logo{
@@ -15,15 +51,38 @@
 
     &__hamburger{  //Mobile Menu
 
-        >span {
+        .line {
             display: block;
-            width: 25px;
-            height: 2px;
+            width: 2rem;
+            height: 0.15rem;
+            border-radius: 0.8rem;
             background-color:  $darkBlue;
+            transition: transform 300ms ease-in-out;
+            transform-origin: 0.375rem 0.0625rem;
 
             &:not(:last-child){
-                margin-bottom: 4px; 
+                margin-bottom: 0.3rem; 
             }
+        }
+
+    }
+
+    &__menu{
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
+        background: $white;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+        border-radius: 0.3rem;
+
+        a{
+            display: block;
+            padding: 0.7rem;
+            color: $darkBlue;
+            font-size: $font-md;
+            text-align: center;
         }
 
     }
@@ -32,7 +91,7 @@
 
         a{
             position: relative;
-            font-size: $font-sm;
+            font-size: $font-md;
             font-weight: 500;
             color: $grayishBlue;
             transition: color 250ms ease-in-out;
