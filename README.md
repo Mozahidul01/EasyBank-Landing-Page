@@ -29,8 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop View
 ![](/images/desktop-view.png)
 
+Mobile View 
 ![](/images/mobile-view.png)
 
 
