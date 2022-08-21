@@ -37,12 +37,10 @@ Mobile View
 
 ![](/images/mobile-view.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Mozahidul01/EasyBank-Landing-Page)
+- Live Site URL: [Add live site URL here](https://easybank-landing-page-fem.pages.dev/)
 
 ## My process
 
@@ -53,11 +51,6 @@ Mobile View
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
