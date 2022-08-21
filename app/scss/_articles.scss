@@ -63,6 +63,10 @@
         font-weight: 500;
         color:$darkBlue;
         margin-bottom: 0.8rem;
+
+        &:hover {
+             color: $limeGreen;
+            }
     }
 
     &__description{

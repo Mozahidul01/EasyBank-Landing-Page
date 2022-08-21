@@ -55,6 +55,13 @@
 
     }
 
+    &__icon{
+
+        img:hover{
+            filter: brightness(0) saturate(100%) invert(98%) sepia(75%) saturate(4911%) hue-rotate(59deg) brightness(87%) contrast(89%);
+        }
+    }
+
     &__links{
         display: flex;
         flex-direction: column;
@@ -65,7 +72,6 @@
             justify-content: space-between;
             align-items: start;
         }
-
         &.col1{
 
             @include breakpoint-up(large){
@@ -86,6 +92,11 @@
 
         a{
             line-height: 2.25;
+
+            &:hover{
+                color: $limeGreen;
+            }
+    
         }
     }
 
@@ -114,5 +125,11 @@
             justify-self:end;
         }
     }
+
+    .attribution {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+      }
 
 }

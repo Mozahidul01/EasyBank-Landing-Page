@@ -550,6 +550,9 @@ button:hover, .button:hover {
   color: #2d314d;
   margin-bottom: 0.8rem;
 }
+.article__title:hover {
+  color: #31d35c;
+}
 .article__description {
   font-size: 1rem;
   color: #9698a6;
@@ -608,6 +611,9 @@ button:hover, .button:hover {
 .footer__social a:not(:last-child) {
   margin-right: 0.8rem;
 }
+.footer__icon img:hover {
+  filter: brightness(0) saturate(100%) invert(98%) sepia(75%) saturate(4911%) hue-rotate(59deg) brightness(87%) contrast(89%);
+}
 .footer__links {
   display: flex;
   flex-direction: column;
@@ -638,6 +644,9 @@ button:hover, .button:hover {
 .footer__links a {
   line-height: 2.25;
 }
+.footer__links a:hover {
+  color: #31d35c;
+}
 @media (min-width: 1024px) {
   .footer__cta {
     grid-area: cta;
@@ -660,4 +669,9 @@ button:hover, .button:hover {
     align-self: end;
     justify-self: end;
   }
+}
+.footer .attribution {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
