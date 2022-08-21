@@ -59,7 +59,7 @@ I have used SCSS for the first time to develop any website. It was a great learn
 ### Useful resources
 
 - [Stackoverflow](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element#:~:text=You%20can't%20change%20the,or%20using%20inline.) - This helped me to change svg element color.
-- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) - This is an amazing article which helped me to understand css grid area concept.
+- [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) - This is an amazing article which helped me to understand css grid area concept.
 
 ## Author
 
