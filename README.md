@@ -39,8 +39,9 @@ Mobile View
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Mozahidul01/EasyBank-Landing-Page)
-- Live Site URL: [Add live site URL here](https://easybank-landing-page-fem.pages.dev/)
+- Solution URL: [https://github.com/Mozahidul01/EasyBank-Landing-Page]
+
+- Live Site URL: [https://easybank-landing-page-fem.pages.dev/]
 
 ## My process
 
