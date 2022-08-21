@@ -63,7 +63,6 @@ I have used SCSS for the first time to develop any website. It was a great learn
 
 ## Author
 
-- Website - [https://www.mozahidul.com](https://www.mozahidul.com)]
+- Website - [https://www.mozahidul.com]
 - Frontend Mentor - [https://www.frontendmentor.io/]
 - Twitter - [https://twitter.com/mozahidul01]
-
