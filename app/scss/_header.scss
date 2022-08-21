@@ -1,5 +1,6 @@
 .header{
     position: relative;
+    background-color: $white;
     z-index: 1;
 
 //Hamburgent Open Style
@@ -134,15 +135,4 @@
         }
     }
 
-    &__cta{
-        font-size: $font-sm;
-        opacity: 0.8;
-        transition: opacity 250ms ease-in-out;
-
-        &:hover{
-            opacity: 1;
-            background: linear-gradient(30deg, $limeGreen, $brightCyan);
-        }
-
-    }
 }

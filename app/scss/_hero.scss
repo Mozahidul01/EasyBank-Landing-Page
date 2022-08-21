@@ -1,0 +1,88 @@
+.hero {
+    background-color: $veryLightGray;
+  
+    >.container {
+  
+      @include breakpoint-up(large){    
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &__image{
+        position: relative;
+        background-image: url('/images/bg-intro-mobile.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 17.5rem;
+
+        @include breakpoint-up(medium){
+            min-height: 25rem;
+            background-position: center 70%;
+          }
+
+        @include breakpoint-up(large){
+            flex: 3;
+            order: 2;
+            height: 70vh;
+            background-image: none;
+        }
+
+        &::before{
+
+            @include breakpoint-up(large){    
+                content: "";
+                position: absolute;
+                height: 130%;
+                min-width: 130%;
+                background-image: url('/images/bg-intro-desktop.svg');
+                background-size: 135%;
+                background-repeat: no-repeat;
+                background-position: 0% 0%;
+                bottom: 0%;
+                left: 20%;
+                overflow: hidden;
+              }
+        }
+
+        &::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url("/images/image-mockups.png");
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            overflow: hidden;
+
+            @include breakpoint-up(medium){
+                background-size: 50%;
+              }
+        
+              @include breakpoint-up(large){
+                width: 100%;
+                height: 120%;
+                background-size: 100%;
+                background-position: 0 80%;
+                left: 50%;
+              }
+        }
+
+    }
+
+    &__text{
+
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+        text-align: center;
+
+        @include breakpoint-up(large){
+            flex: 2;
+            order: 1;
+            text-align: left;
+        }
+
+    }
+}
